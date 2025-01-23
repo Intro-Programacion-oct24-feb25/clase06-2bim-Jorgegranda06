@@ -28,7 +28,8 @@ public class Ejemplo092 {
                 if (primerCaracter == 'A' || primerCaracter == 'E' || 
                     primerCaracter == 'I' || primerCaracter == 'O' || 
                     primerCaracter == 'U') {
-                    throw new Exception("El país no comienza con una consonante.");
+                    throw new Exception("El país no comienza con una "
+                            + "consonante.");
                 } else {
                     System.out.printf("El pais es: %s\n", pais);
                     bandera = false;
